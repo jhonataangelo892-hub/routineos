@@ -1,0 +1,24 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+# IDE / Ferramentas
+.claude/
+.windsurf/
+.agents/
+
+# Banco de dados local
+*.db
+*.db-journal
+
+# Dependências
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+dist/
+build/
